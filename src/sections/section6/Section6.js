@@ -19,7 +19,7 @@ const Section6 = () => {
           </div>
           <div className="codeutsava__section6-sponser-list platinum">
             {sponsers.platinum.map((sponser, index) => (
-              <img src={sponser.img} />
+              <img key={index} src={sponser.img} />
             ))}
           </div>
           <div className="codeutsava__section6-sponser-title">
@@ -27,7 +27,7 @@ const Section6 = () => {
           </div>
           <div className="codeutsava__section6-sponser-list gold">
             {sponsers.gold.map((sponser, index) => (
-              <img src={sponser.img} />
+              <img key={index} src={sponser.img} />
             ))}
           </div>
           <div className="codeutsava__section6-sponser-title">
@@ -35,7 +35,7 @@ const Section6 = () => {
           </div>
           <div className="codeutsava__section6-sponser-list silver">
             {sponsers.silver.map((sponser, index) => (
-              <img src={sponser.img} />
+              <img key={index} src={sponser.img} />
             ))}
           </div>
           <div className="codeutsava__section6-sponser-title">
@@ -43,7 +43,7 @@ const Section6 = () => {
           </div>
           <div className="codeutsava__section6-sponser-list bronze">
             {sponsers.bronze.map((sponser, index) => (
-              <img src={sponser.img} />
+              <img key={index} src={sponser.img} />
             ))}
           </div>
         </div>

@@ -8,7 +8,6 @@ export default class App extends Component {
       <BrowserRouter>
       <Routes>
         <Route path="/"  element={<HomePage/>} />
-       
       </Routes>
       </BrowserRouter>
     )

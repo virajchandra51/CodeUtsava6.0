@@ -13,7 +13,7 @@ const Section4 = () => {
         <div className="codeutsava__section4-title">Speakers</div>
         <div className="codeutsava__section4-speakers">
           {speakers.map((speaker, index) => (
-            <SpeakerCard img={speaker.img} name={speaker.name} position={speaker.position} description={speaker.description}
+            <SpeakerCard key={index} img={speaker.img} name={speaker.name} position={speaker.position} description={speaker.description}
             facebook={speaker.facebook} twitter={speaker.twitter} linkedin={speaker.linkedin} github={speaker.github} />
           ))}
         </div>

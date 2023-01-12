@@ -28,7 +28,7 @@ const Section3 = () => {
                 <div className="codeutsava__section3-events">
                     <div className="codeutsava__section3-events-container" ref={scrollRef}>
                     {events.map((event,index) => (
-                        <EventCard img={event.img} title={event.title} date={event.date}/>
+                        <EventCard key={index} img={event.img} title={event.title} date={event.date}/>
                     ))}    
                     </div>
                 </div>
